@@ -1,7 +1,7 @@
 # Easily copy messages to other Slack channels.
 
 ## Installation 
-Click [here](http://slack-bot-copy.herokuapp.com/login) to instantly add `@copy` bot to your Slack. You're also welcome to host `@copy` yourself!
+Click [here](http://slack-reddit-europe-clonebot.herokuapp.com/login) to instantly add `@copy` bot to your Slack. You're also welcome to host `@copy` yourself!
 
 ## Usage
 

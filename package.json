@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/winthegame/slack-bot-copy.git"
+    "url": "git+https://github.com/gschizas/slack-bot-copy.git"
   },
   "keywords": [
     "copybot",
@@ -25,9 +25,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/winthegame/slack-bot-copy/issues"
+    "url": "https://github.com/gschizas/slack-bot-copy/issues"
   },
-  "homepage": "https://github.com/winthegame/slack-bot-copy#readme",
+  "homepage": "https://github.com/gschizas/slack-bot-copy#readme",
   "engines": {
     "node": "4.2.1",
     "npm": "2.14.7"
