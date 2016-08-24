@@ -31,7 +31,7 @@ if (process.env.clientId && process.env.clientSecret) {
   controller.configureSlackApp({
     clientId: process.env.clientId,
     clientSecret: process.env.clientSecret,
-    redirect_uri: 'https://slack-bot-copy.herokuapp.com/oauth',
+    redirect_uri: 'https://slack-reddit-europe-clonebot.herokuapp.com/oauth',
     scopes: ['bot']
   });
 
@@ -167,7 +167,7 @@ controller.hears(["help"], ["direct_message", "direct_mention", "mention"], func
     convo.say("Hi! Ever found yourself :printer: copying messages to other channels? I make that easy as :cake:.");
     convo.say("For example in `#general`, you might say `Let's ask #dev about the overflow bug <@" + bot.identity.id + ">` and I'll copy your message to `#dev`.");
     convo.say("If I'm useful install me in your other teams or share me with your friends. I'm :free: and :open_book: open source.");
-    convo.say("Here's my github repo: https://github.com/winthegame/slack-bot-copy and here's a link to instantly install me in another :slack:Slack slack-bot-copy.herokuapp.com/login");
+    convo.say("Here's my github repo: https://github.com/gschizas/slack-bot-copy and here's a link to instantly install me in another :slack:Slack slack-reddit-europe-clonebot.herokuapp.com/login");
     convo.next();
   });
 });
